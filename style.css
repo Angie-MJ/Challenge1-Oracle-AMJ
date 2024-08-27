@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #f4f4fc;
+}
+header{
+    width: 100%;
+    height: 70px;
+}
+.Logo{
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+main{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.CajaBotones{
+    position: absolute;
+    top: 00px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    height: 67px;
+    padding-top: 15px;
+}
+.ContenedorCajaTexto{
+    position: absolute;
+    left: 70px;
+    top: 95px;
+    padding-left: 100px;
+    width: 600px;
+    height: 300px;
+}
+.CajaTexto{
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.CajaTexto::placeholder{
+    color: #0A3871;
+    
+}
+.Alerta{
+    position: absolute;
+    top: 420px;
+    left: 300px;
+    display: flex;
+    color: #495057;
+}
+
+.BotonEncriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.BotonDesencriptar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+.CajaBorrar {
+    position: absolute;
+    bottom: 20px; /* Coloca el botón "Borrar" en la parte inferior */
+    left: 50%;
+    transform: translateX(-100%); /* Centra el botón horizontalmente */
+    width: 328px; /* Ajusta el ancho si es necesario */
+}
+.BotonBorrar {
+    width: 300px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: #E74C3C;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    cursor: pointer;
+    
+}
+.Seccion2{
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    right: 100px;
+    padding-right: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+.CajaMuñeco{
+    position: absolute;
+    left: 30px;
+    top: 0px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.CajaParrafo{
+    position: absolute;
+    box-sizing: border-box;
+    top: 330px;
+    left: 15px;
+    right: 15px;
+}
+.CajaParrafo h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #343A40;
+}
+.CajaParrafo p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    padding-top: 20px;
+}
+
+.CajaResultado {
+    position: absolute;
+    bottom: 370px; 
+    width: 348px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+
+.CajaResultado p {
+    color: #495057;
+    font-size: 25px;
+    word-wrap: break-word;
+}
+
+.CajaCopiar{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 330px;
+    background-color: aqua;
+    padding-left: 40px;
+}
+
+.BotonCopiar{
+    width: 328px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    position: relative;
+    top: 100px;
+    right: 4px;
+}
+
+.ocultar{
+    display: none;
+}
